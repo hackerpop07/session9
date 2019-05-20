@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+</head>
+<body>
+<script>
+    let str = prompt("Email: ");
+    regexp = /(^[A-Za-z-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$)/;
+    if (regexp.test(str)) {
+        alert("Yes");
+    } else {
+        alert("No");
+    }
+</script>
+</body>
+</html>
